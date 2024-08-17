@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat AI
+
+This repository is a project that follows a YouTube tutorial on creating a Chatbot using OpenAI's ChatGPT API and the Vercel SDK. The chatbot is designed to handle various conversational scenarios using the latest advancements in AI.
+
+## Overview
+
+This project demonstrates how to integrate OpenAI's ChatGPT with Vercel to build a functional chatbot. The tutorial covers the setup, implementation, and deployment of the chatbot on Vercel, a platform for developing and deploying serverless applications.
+
+## Features
+
+- **Natural Language Processing:** Uses OpenAI's powerful ChatGPT API to understand and generate human-like responses.
+- **Deployment on Vercel:** Easily deployable using Vercel's serverless functions.
+- **Interactive Chat Interface:** A simple and intuitive interface for users to interact with the chatbot.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js installed on your local machine
+- A Vercel account
+- OpenAI API key
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/LeonardoToniolo/chat-ai.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd chat-ai
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file in the root directory and add your OpenAI API key:
+
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+
+### Usage
+
+To run the chatbot locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The chatbot will be accessible at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To deploy the chatbot to Vercel:
 
-## Learn More
+1. Install the Vercel CLI:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install -g vercel
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Link your project to a new or existing Vercel project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   vercel link
+   ```
 
-## Deploy on Vercel
+3. Deploy the chatbot:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   vercel deploy
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Your chatbot will be live and accessible via the Vercel-generated URL.
+
+## Video Tutorial
+
+For a step-by-step guide on how to create this chatbot, refer to the [YouTube video tutorial](https://www.youtube.com/watch?v=CPRx_WVkJ8g).
+
+## Contributing
+
+If you have suggestions for improvements or encounter any issues, feel free to open a pull request or an issue on this repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Let me know if you need any changes or additional details!
