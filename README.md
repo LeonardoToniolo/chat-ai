@@ -93,7 +93,3 @@ If you have suggestions for improvements or encounter any issues, feel free to o
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Let me know if you need any changes or additional details!
